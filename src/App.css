@@ -1,8 +1,24 @@
-.App {
-  text-align: center;
-  background-image: url(./img/bg-home.jpg);
-  background-size: 100%;
+@media only screen and (max-width: 1205px){
+  /* For mobile phones: */
+  .App {
+    text-align: center;
+    background-image: url(./img/bg-home-mobile0.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
 }
+
+@media only screen and (min-width:1206px){
+  .App {
+    text-align: center;
+    background-image: url(./img/bg-home.jpg);
+    background-size: 100%;
+  }
+}
+
 
 
 .App-logo {
