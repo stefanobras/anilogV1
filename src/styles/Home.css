@@ -25,10 +25,9 @@ body {
         background-image: url('../img/bg-home-mobile.jpg');
         background-position: bottom;
     }
-    
-    * {
+
+    .makeStyles-imageTitle-5 {
         font-size: 25px !important;
     }
-
     
   }
