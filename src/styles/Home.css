@@ -1,0 +1,34 @@
+body {
+    background-image: url('../img/bg-home.jpg');
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.homeRoot {
+    display: 'flex';
+    flex-wrap: 'wrap';
+    min-width: 300;
+    width: '100%';
+}
+
+
+
+
+@media only screen and (max-width: 1205px){
+    /* For mobile phones: */
+    
+    body {
+        background-image: url('../img/bg-home-mobile.jpg');
+        background-position: bottom;
+    }
+    
+    * {
+        font-size: 25px !important;
+    }
+
+    
+  }

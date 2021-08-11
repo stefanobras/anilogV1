@@ -8,6 +8,18 @@
     -o-background-size: cover;
     background-size: cover;
   }
+
+  .logoBox {
+    position: fixed;
+    top: 33%;
+    left: 32%;
+  }
+
+  .homeTitle {
+    position: fixed;
+    top: 50%;
+    left: 3%;
+  }
   
 }
 
@@ -17,22 +29,38 @@
     background-image: url(./img/bg-home.jpg);
     background-size: 100%;
   }
-}
 
+  .logoBox {
+    position: fixed;
+    top: 16%;
+    left: 39.9%;
+  }
+
+  .homeTitle {
+    position: fixed;
+    text-align: center;
+    top: 56%;
+    left: 38.2%;
+  }
+
+}
 
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
   z-index: 5;
+  position: fixed;
 }
 
 .App-logo2 {
   height: 40vmin;
   pointer-events: none;
   z-index: 10;
-  position: absolute;
+  position: absolute
 }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -48,6 +76,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: -apple-system, 'Roboto', sans-serif;
 }
 
 .App-link {
@@ -61,4 +90,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.buttonLogin {
+  color: black !important;
+  text-decoration: none !important;
 }
